@@ -523,7 +523,7 @@ input:checked + .slide-wrapper .nav label {
         border-radius: 0;
     }
     .team {
-        height: 70vh;
+        height: 90vh;
         flex-direction: column-reverse;
     }
     .team-img {
