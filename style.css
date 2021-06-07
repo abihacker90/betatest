@@ -121,7 +121,7 @@ img {
 /* Concerts Styling */
 
 #concerts {
-    height: 30vh;;
+    height: 40%;
     width: 100%;
     display: flex;
 }
@@ -132,7 +132,7 @@ img {
 /* Team */
 
 .team {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     margin-top: 3rem;
 }
@@ -481,10 +481,10 @@ input:checked + .slide-wrapper .nav label {
 
 
 
-  @media only screen and (max-width: 576px) {
+  @media only screen and (orientation: portrait) and (max-width: 576px) {
     .hero {
         background: url('./assets/webbanner.png') no-repeat center center/cover;
-        width: 100vw;
+        width: 100%;
         height: 45vh;
     }
 
@@ -510,7 +510,7 @@ input:checked + .slide-wrapper .nav label {
         margin: 1rem;
     }
     #concerts {
-        height: 70vh;
+        height: fit-content;
         flex-direction: column;
     } 
     .spotify {
@@ -523,7 +523,7 @@ input:checked + .slide-wrapper .nav label {
         border-radius: 0;
     }
     .team {
-        height: 90vh;
+        height: fit-content;
         flex-direction: column-reverse;
     }
     .team-img {
@@ -541,7 +541,7 @@ input:checked + .slide-wrapper .nav label {
   
 }
 
- @media only screen and  (min-width: 577px) and (max-width: 768px) {
+ @media only screen and (orientation: portrait) and (min-width: 577px) and (max-width: 768px) {
     .hero {
         background: url('./assets/webbanner.png') no-repeat center center/cover;
         width: 100vw;
@@ -568,7 +568,7 @@ input:checked + .slide-wrapper .nav label {
     }
 
     .team {
-        height: 60vh;
+        height: fit-content;
         flex-direction: column-reverse;
     }
 
@@ -578,7 +578,7 @@ input:checked + .slide-wrapper .nav label {
     }
 
     #concerts {
-        height: 70vh;
+        height: fit-content;
         flex-direction: column;
     }
     .spotify {
@@ -599,14 +599,14 @@ input:checked + .slide-wrapper .nav label {
         width: 100%;
     }
 } 
- @media only screen and (min-width: 769px) and (max-width: 992px) {
+ @media only screen and (orientation: portrait) and (min-width: 769px) and (max-width: 992px) {
     .hero {
         background: url('./assets/webbanner.png') no-repeat center center/cover;
         width: 100vw;
         height: 45vh;
     }
     .team {
-        height: 70vh;
+        height: fit-content;
         flex-direction: column-reverse;
     }
 
@@ -615,7 +615,7 @@ input:checked + .slide-wrapper .nav label {
     }
 
     #concerts {
-        height: 60vh;
+        height: fit-content;
         flex-direction: column;
         margin-bottom: 15rem;
     }
@@ -635,18 +635,18 @@ input:checked + .slide-wrapper .nav label {
         width: 100%;
     }
 } 
- @media only screen and (min-width: 993px) and (max-width: 1080px) {
+ @media only screen and (orientation: portrait) and (min-width: 993px) and (max-width: 1080px) {
     .hero {
         max-width: 100%;
         height: 60vh;
     }
     #concerts {
-        height: 40vh;
+        height: fit-content;
     }
 
     .team {
         width: 100%;
-        height: 40vh;
+        height: fit-content;
     }
 
 } 
@@ -656,10 +656,10 @@ input:checked + .slide-wrapper .nav label {
         height: 100vh;
     }
     #concerts {
-        height: 50vh;
+        height: fit-content;
     }
     .team {
-        height: 60vh;
+        height: fit-content;
     }
 }
 
