@@ -152,6 +152,10 @@ img {
     width: 50%;
 } 
 
+#team .content p {
+    text-align: justify;
+}
+
 
 
 /* Team Pictures Styles */
@@ -213,6 +217,11 @@ img {
 
 .spotify iframe {
     border-radius: 0 20px 20px 0;
+}
+
+
+.media-video .responsive-iframe {
+    margin: auto;
 }
 
 /* contact styles */
@@ -503,6 +512,7 @@ input:checked + .slide-wrapper .nav label {
 
     #navul.show {
         display: flex;
+        background: #333;        
     }
 
     .hamburger {
